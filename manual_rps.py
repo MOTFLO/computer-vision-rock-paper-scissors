@@ -1,6 +1,6 @@
 import random
 
-print ('\nThis is a Rock, Paper and Scissors game!!\n')
+print ('\nThis is a Rock-Paper-Scissors game!!\n')
 
 choice_list = ['Rock', 'Paper','Scissors']
 
