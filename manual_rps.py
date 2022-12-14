@@ -1,5 +1,7 @@
 import random
 
+print ('\nThis is a Rock, Paper and Scissors game!!\n')
+
 choice_list = ['Rock', 'Paper','Scissors']
 
 def get_computer_choise():
@@ -18,7 +20,7 @@ def get_computer_choise():
     '''
     
     computer_choice = random.choice(choice_list)
-    #print ('Computer choice is: ' + computer_choice)
+    print ('Computer choice is: ' + computer_choice)
     return computer_choice
 
 def get_user_choice():
@@ -43,8 +45,29 @@ def get_user_choice():
 
 
 def get_winner():
-    computer_choice = get_computer_choise()
+    '''
+    The function to get a winner between "computer_choice" and "user_choice".
+    
+    If computer/user choice is Rock and user/computer choice is Scissors, Rock choice wins.
+    Else, if computer/user choice is Paper and user/computer choice is Rock, Paper choice wins.
+    Else, if computer/user choice is Scissors and user/computer choice is Paper, Scissors choice wins.
+    Else, if computer choice is equal to user choice, then is a tie.
+    
+    Attributes:
+    ----------
+    computer_choice: str
+        Is getting the computer random choice function.
+
+    user_choice: str
+        Is getting the user input function, manualy.
+
+    Returns:
+    -------
+    get_winner:str
+        Returns the winner of the game.
+    '''
     user_choice = get_user_choice()
+    computer_choice = get_computer_choise()
     
     if computer_choice == "Rock" and user_choice == "Scissors":
         print ('You lost!')
@@ -66,6 +89,24 @@ def get_winner():
     
     elif computer_choice == user_choice:
         print ('It is a tie!')
-    return
+    
+    return get_winner()
 
-winner = get_winner()
+def play():
+    '''
+    The play function, to get the winner of the game that is set to any.
+    
+    Variable:
+    --------
+    winner: Any
+        It gets the winner of the game using "get_winner" function.
+        
+    Return:
+    ------
+    winner: Any
+        Will return the winner of the game.
+    '''
+    winner = get_winner()
+    return winner
+
+play_game = play()
