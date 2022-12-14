@@ -1,7 +1,6 @@
 import random
 
-choice_list = ['rock', 'paper','scissors']
-computer_choice = random.choice(choice_list)
+choice_list = ['Rock', 'Paper','Scissors']
 
 def get_computer_choise():
     '''
@@ -19,8 +18,8 @@ def get_computer_choise():
     '''
     
     computer_choice = random.choice(choice_list)
-    print ('Computer choice is: ' + computer_choice)
-    pass
+    #print ('Computer choice is: ' + computer_choice)
+    return computer_choice
 
 def get_user_choice():
     '''
@@ -37,8 +36,36 @@ def get_user_choice():
         List of choices to be used in the game.
     '''
     user_input = input('Please, select a word from the list ' + str(choice_list) + ': ')
+    user_input = user_input.capitalize()
     print ('User choice: ' + user_input)
-    pass
+    return user_input
 
-computer_choice = get_computer_choise()
-user_choice = get_user_choice()
+
+
+def get_winner():
+    computer_choice = get_computer_choise()
+    user_choice = get_user_choice()
+    
+    if computer_choice == "Rock" and user_choice == "Scissors":
+        print ('You lost!')
+        
+    elif computer_choice == "Paper" and user_choice == "Rock":
+        print ('You lost.')
+        
+    elif computer_choice == "Scissors" and user_choice == "Paper":
+        print ('You lost!')
+    
+    elif user_choice == "Paper" and computer_choice == "Rock":
+        print ('You won!')
+        
+    elif user_choice == "Rock" and computer_choice == "Scissors":
+        print ('You won!')
+        
+    elif user_choice == "Scissors" and computer_choice == "Paper":
+        print ('You won!')
+    
+    elif computer_choice == user_choice:
+        print ('It is a tie!')
+    return
+
+winner = get_winner()
