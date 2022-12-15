@@ -1,11 +1,40 @@
+import time
 import random
 import cv2
 from keras.models import load_model
 import numpy as np
 
-print ('\nThis is a Rock-Paper-Scissors game!!\n')
+print ('\nThis is a Rock-Paper-Scissors game!!')
+print (f'\nPlease, show an option to the camera in:\n')
+time.time()
+
+def countdown_timer(t):
+    '''
+    The countdown timer for the game.
+    
+    Variable:
+    ---------
+    min, sec: Any
+        Calculates the number of minutes in a second using the divmod() function.
+    
+    timer: LiteralString
+        Prints the minutes and seconds on the screen using the variable time.format.
+    
+    Parameter:
+    ----------
+    t: Any
+        Alocated number in seconds to countdown.
+    '''
+    while t:
+        mins, secs = divmod(t, 60)
+        timer = '{:02d}:{:02d}'.format(mins, secs)
+        print(timer, end="\r")
+        time.sleep(1)
+        t -= 1
+t = 10
+countdown_timer(int(t))
+
 choice_list = ['Rock', 'Paper','Scissors', 'Nothing']
-print ('\nPlease, show a sign to the camera according to the list' + str(choice_list) + ': \n')
 
 def get_computer_choise():
     '''
