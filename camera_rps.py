@@ -10,7 +10,7 @@ time.time()
 
 def countdown_timer(t):
     '''
-    The countdown timer for the game.
+    The countdown timer function for the game.
     
     Variable:
     ---------
