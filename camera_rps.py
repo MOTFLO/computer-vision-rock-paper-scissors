@@ -82,7 +82,7 @@ def get_winner():
         Is getting the computer random choice function.
 
     user_choice: str
-        Is getting the user input function, manualy.
+        Is getting the user prediction.
 
     Returns:
     -------
