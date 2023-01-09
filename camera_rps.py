@@ -46,7 +46,7 @@ class RPS:
         '''
         The function predicts the winner between "computer_choice" and "user_choice".
         
-        While the sequences of statements are true and if keyboard pressed is number 13 start countdown the time. When countdown time is zero, start playing the game.
+        While the sequences of statements are true and if keyboard pressed is ENTER(ASCII code number 13) countdown the time. When countdown time is zero, start playing the game.
         Else, if keyboard pressed is "s" stop running the game and reset the game.
         Else, if keyboard pressed is "q" close the window and quit the game. After the loop release the cap object and destroy all windows.
         Else, if computer/user choice is Rock and user/computer choice is Scissors, Rock choice wins the round.
