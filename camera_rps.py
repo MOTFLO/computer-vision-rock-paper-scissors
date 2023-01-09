@@ -172,7 +172,7 @@ class RPS:
                     if key & key == ord('s'): #Press "s" to stop running the loop.
                         break
                     
-                else: # Elese, while "computer_wins" and "user_wins" are less than 3 rounds do while loop to get the winner.
+                else: # If "t" is "0", while "computer_wins" and "user_wins" are less than 3 rounds do while loop to get the winner.
                     while computer_wins < 3 and computer_wins >= 0 or user_wins < 3 and user_wins >= 0:
                 
                         number_rounds += 1
