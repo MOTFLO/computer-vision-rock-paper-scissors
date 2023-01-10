@@ -158,13 +158,13 @@ def play():
 
 ### A countdown timer for the game
 ```
-image.png
+/assets/image.png
 ```
 ### The rule of three rounds in order to get a winner
 ```
-image.png
+/assets/image.png
 ```
 ### Implementation of extra functionalities for the game in the frame: countdown time, quit, enter/continue or stop options.
 ```
-image.png
+/assets/image.png
 ```
