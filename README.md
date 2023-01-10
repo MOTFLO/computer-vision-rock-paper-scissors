@@ -158,12 +158,12 @@ def play():
 
 ### A countdown timer for the game
 
-<![image](https://user-images.githubusercontent.com/116363766/211653287-ed7cfeb5-15b1-42c8-ba2e-1a01c0bf6448.png)>
+![image_1](https://user-images.githubusercontent.com/116363766/211667980-ad9358f3-084c-433a-aa8f-c5d8991b6a2b.png)
 
 ### The rule of three rounds in order to get a winner
 
-<![image](https://user-images.githubusercontent.com/116363766/211653772-852c1686-2dbc-4a2c-90dd-c4deb9569dd7.png)>
+![image_2](https://user-images.githubusercontent.com/116363766/211668133-feb57945-b451-4196-a8dd-a6fe87ff976a.png)
 
 ### Implementation of extra futures in RPS frame: countdown time, quit, enter/continue or stop options.
 
-<![image](https://user-images.githubusercontent.com/116363766/211653018-fd06dfa4-e8d7-4172-bb55-445d09adf8e0.png)>
+![image_3](https://user-images.githubusercontent.com/116363766/211668275-5c1ee360-f6be-421a-99f6-0353d9a24a66.png)
