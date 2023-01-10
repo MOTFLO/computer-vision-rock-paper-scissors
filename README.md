@@ -147,3 +147,24 @@ def play():
     return winner
 
 ```
+## Milestone 5
+
+#### The milestone 5 is covering the final implementation of the Computer Vision RPS project, where the manual "user_choice" function has been replaced by Machine Learning algorithm that has been trained to get the camera input from the user and predict the choice based on the trained model.
+#### For the final outcome of the program there has been implmented the "get_prediction" function, to get the winner of the game between computer(computer_choice) and user(user_choice). In oreder to play the game, there have to be used a video camera. 
+#### Also, there have been implmented the following functionalities:
+* A countdown timer for the game
+* The rule of three rounds in order to get a winner
+* Implementation of extra functionalities for the game in the frame: countdown time, quit, enter/continue or stop options. 
+
+### A countdown timer for the game
+```
+image.png
+```
+### The rule of three rounds in order to get a winner
+```
+image.png
+```
+### Implementation of extra functionalities for the game in the frame: countdown time, quit, enter/continue or stop options.
+```
+image.png
+```
