@@ -158,6 +158,7 @@ def play():
 
 ### A countdown timer for the game
 ```
+<img title="Image 1" alt="Countdown timer" src="/images/image.png>
 /assets/image.png
 ```
 ### The rule of three rounds in order to get a winner
