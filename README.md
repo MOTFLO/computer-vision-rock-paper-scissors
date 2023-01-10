@@ -166,5 +166,5 @@ def play():
 ```
 ### Implementation of extra functionalities for the game in the frame: countdown time, quit, enter/continue or stop options.
 ```
-/assets/image.png
+/assets/images/image.png
 ```
