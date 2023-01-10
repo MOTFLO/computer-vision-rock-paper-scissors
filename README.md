@@ -149,21 +149,23 @@ def play():
 ```
 ## Milestone 5
 
-#### The milestone 5 is covering the final implementation of the Computer Vision RPS project, where the manual "user_choice" function has been replaced by Machine Learning algorithm that has been trained to get the camera input from the user and predict the choice based on the trained model.
-#### For the final outcome of the program there has been implmented the "get_prediction" function, to get the winner of the game between computer(computer_choice) and user(user_choice). In oreder to play the game, there have to be used a video camera. 
-#### Also, there have been implmented the following functionalities:
+#### The milestone is covering the final implementation of the Computer Vision RPS project, where the manual "user_choice" function has been replaced by Machine Learning algorithm that has been trained to get the camera input from the user and predict the output based on the trained model.
+#### For the final outcome of the program there has been implmented the "get_prediction" function, to get the winner of the game,between computer(computer_choice) and user(user_choice). In oreder to play the game, there have to be used a video camera. 
+#### Also, in the last part of the project have been implemented the following functionalities:
 * A countdown timer for the game
 * The rule of three rounds in order to get a winner
-* Implementation of extra functionalities for the game in the frame: countdown time, quit, enter/continue or stop options. 
+* Implementation of extra functionalities for the game, in frame: countdown time, date, time, quit, enter/continue or stop option. 
 
-### A countdown timer for the game
+### 1. A countdown timer for the game, see below image:
 
 ![image_1](https://user-images.githubusercontent.com/116363766/211667980-ad9358f3-084c-433a-aa8f-c5d8991b6a2b.png)
 
-### The rule of three rounds in order to get a winner
+### 2. The rule of three rounds in order to get a winner, see below image: 
 
 ![image_2](https://user-images.githubusercontent.com/116363766/211669411-92eeb4a0-95bf-4186-a7a1-1912c5053aca.png)
 
-### Implementation of extra futures in RPS frame: countdown time, quit, enter/continue or stop options.
+### 3. Implementation of extra functionalities for the game, in frame: countdown time, time. date, quit, enter/continue or stop option.
 
 ![image_3](https://user-images.githubusercontent.com/116363766/211668275-5c1ee360-f6be-421a-99f6-0353d9a24a66.png)
+
+#### Note: In order to run the RPS program you need to install the Python programing language, clone the project on a local machine and run "camera_rps.py" file from the terminal.
