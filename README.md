@@ -162,7 +162,7 @@ def play():
 
 ### The rule of three rounds in order to get a winner
 
-![image_2](https://user-images.githubusercontent.com/116363766/211668133-feb57945-b451-4196-a8dd-a6fe87ff976a.png)
+![image_2](https://user-images.githubusercontent.com/116363766/211669411-92eeb4a0-95bf-4186-a7a1-1912c5053aca.png)
 
 ### Implementation of extra futures in RPS frame: countdown time, quit, enter/continue or stop options.
 
